@@ -1,5 +1,22 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ArticleController;
+
+
+// Controllers
+
+//Route::get('/contact2', [ContactController::class, 'index']);
+
+Route::get('/contactar', 'ContactController@index');
+
+Route::get('/acerca', 'AboutController@index');
+
+Route::get('/articulo', 'ArticleController@index');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +29,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 /// Con blade
+/*
 Route::get('/', function () {
 
     $arts =  array (); /// cambiar a un array de corchetes, no con push
@@ -47,22 +65,4 @@ Route::get('/acerca', function () {
     return view('plt.about');
 });
 
-
-/// STATIC
-Route::get('/index', function () {
-    return view('static.index');
-});
-Route::get('/article', function () {
-    return view('static.article');
-});
-Route::get('/contact', function () {
-    return view('static.contact');
-});
-Route::post('/contact', function () {
-    // No hago nada
-    return view('static.contact');
-});
-Route::get('/about', function () {
-    return view('static.about');
-});
-
+*/

@@ -13,10 +13,10 @@
 
 <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link" href="/inicio">Artículos</a>
+    <a class="nav-link" href="/articulo">Artículos</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/contacto">Contacto</a>
+    <a class="nav-link" href="/contactar">Contacto</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/acerca">Sobre nosotros</a>
